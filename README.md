@@ -1,24 +1,28 @@
 # API Automation Project
 
-This project is a simple example of an API automation testing framework built with **Python**, **pytest**, and **OOP principles**.  
-It demonstrates how to structure automated API tests in a clean, maintainable way using reusable API clients.
+This repository demonstrates a simple API automation testing project built with Python and pytest.
+The focus of this project is on test structure, readability, and maintainability, using reusable API clients and a clear separation of concerns.
+
+This is a demonstration project intended to showcase automation fundamentals rather than a production-grade testing solution.
 
 ## Tech Stack
 - Python
 - pytest
-f- requests
+- requests
 
-
-## What Is Tested
-- API status codes
-- Response body content
+## What Is Covered
+- API status code validation
+- Response body assertions
 - Handling of invalid requests
-- Basic response time (performance) validation
+- Basic response time checks (for demonstration purposes only)
+
+## Project Structure
+- `src/` – reusable API clients and request logic
+- `tests/` – pytest test cases and fixtures
 
 ## Installation
-
-Install project dependencies:
-
+Install dependencies:
+```bash
 pip install -r requirements.txt
 
 ## Running the Tests
@@ -34,6 +38,5 @@ The tests use a public mock REST API for demonstration purposes:
 https://jsonplaceholder.typicode.com
 
 ## Notes
-- The `src` directory contains reusable API logic and clients.
-- The `tests` directory contains pytest test cases and fixtures.
 - This project is intended for learning and demonstration purposes.
+- It focuses on clean test organization and automation practices, not on full production coverage or performance testing.
